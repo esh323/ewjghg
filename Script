@@ -1,0 +1,150 @@
+-- Feito por M3l#3868
+local CalamityHub = Instance.new("ScreenGui")
+local Main = Instance.new("ImageButton")
+local Gradient = Instance.new("UIGradient")
+local decoration = Instance.new("ImageButton")
+local titlegui = Instance.new("TextLabel")
+local credits = Instance.new("TextLabel")
+local BringWood = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+local AncestorHub = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Dupe = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+
+--Properties:
+
+CalamityHub.Name = "CalamityHub"
+CalamityHub.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = CalamityHub
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.Position = UDim2.new(0.0234301779, 0, 0.518518567, 0)
+Main.Size = UDim2.new(0, 382, 0, 229)
+Main.Image = "rbxassetid://2790382281"
+Main.ImageColor3 = Color3.fromRGB(250, 255, 190)
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(4, 4, 252, 252)
+Main.Active = true
+Main.Draggable = true
+
+Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(224, 43, 39)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(168, 3, 3))}
+Gradient.Name = "Gradient"
+Gradient.Parent = Main
+
+decoration.Name = "decoration"
+decoration.Parent = Main
+decoration.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+decoration.BackgroundTransparency = 1.000
+decoration.Position = UDim2.new(0, 0, 0.148471624, 0)
+decoration.Size = UDim2.new(0, 382, 0, 8)
+decoration.Image = "rbxassetid://2790371148"
+decoration.ImageColor3 = Color3.fromRGB(194, 10, 10)
+decoration.ScaleType = Enum.ScaleType.Slice
+decoration.SliceCenter = Rect.new(32, 32, 224, 224)
+
+titlegui.Name = "titlegui"
+titlegui.Parent = Main
+titlegui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titlegui.BackgroundTransparency = 1.000
+titlegui.Position = UDim2.new(0.0209424086, 0, 0.0262008719, 0)
+titlegui.Size = UDim2.new(0, 80, 0, 22)
+titlegui.Font = Enum.Font.SourceSansSemibold
+titlegui.Text = "Calamity"
+titlegui.TextColor3 = Color3.fromRGB(0, 0, 0)
+titlegui.TextScaled = true
+titlegui.TextSize = 14.000
+titlegui.TextWrapped = true
+
+credits.Name = "credits"
+credits.Parent = Main
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.Position = UDim2.new(0, 0, 0.890829563, 0)
+credits.Size = UDim2.new(0, 138, 0, 18)
+credits.Font = Enum.Font.SourceSans
+credits.Text = "<i>Made by: M3l#3868</i>"
+credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+credits.TextScaled = true
+credits.TextSize = 14.000
+credits.TextWrapped = true
+
+BringWood.Name = "BringWood"
+BringWood.Parent = Main
+BringWood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BringWood.BackgroundTransparency = 1.000
+BringWood.Position = UDim2.new(0.0410432927, 0, 0.220828265, 0)
+BringWood.Size = UDim2.new(0, 122, 0, 40)
+BringWood.Image = "rbxassetid://2790389767"
+BringWood.ImageColor3 = Color3.fromRGB(127, 63, 0)
+BringWood.ScaleType = Enum.ScaleType.Slice
+BringWood.SliceCenter = Rect.new(8, 8, 248, 248)
+BringWood.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3NSVf33e"))()
+end)
+
+TextLabel.Parent = BringWood
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.494923025, 0, 0.489126593, 0)
+TextLabel.Size = UDim2.new(0.844116926, -5, 0.654937744, -5)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Bring wood"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+AncestorHub.Name = "AncestorHub"
+AncestorHub.Parent = Main
+AncestorHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AncestorHub.BackgroundTransparency = 1.000
+AncestorHub.Position = UDim2.new(0.624812901, 0, 0.220828265, 0)
+AncestorHub.Size = UDim2.new(0, 122, 0, 40)
+AncestorHub.Image = "rbxassetid://2790389767"
+AncestorHub.ImageColor3 = Color3.fromRGB(127, 63, 0)
+AncestorHub.ScaleType = Enum.ScaleType.Slice
+AncestorHub.SliceCenter = Rect.new(8, 8, 248, 248)
+AncestorHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://zypher.wtf/AncestorHub"))()
+end)
+
+TextLabel_2.Parent = AncestorHub
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.494923025, 0, 0.489126593, 0)
+TextLabel_2.Size = UDim2.new(0.844116926, -5, 0.654937744, -5)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Ancestor Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+Dupe.Name = "Dupe"
+Dupe.Parent = Main
+Dupe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dupe.BackgroundTransparency = 1.000
+Dupe.Position = UDim2.new(0.622195125, 0, 0.522138298, 0)
+Dupe.Size = UDim2.new(0, 122, 0, 40)
+Dupe.Image = "rbxassetid://2790389767"
+Dupe.ImageColor3 = Color3.fromRGB(127, 63, 0)
+Dupe.ScaleType = Enum.ScaleType.Slice
+Dupe.SliceCenter = Rect.new(8, 8, 248, 248)
+Dupe.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/esh323/Dupe/main/README.md"))()
+end)
+
+TextLabel_3.Parent = Dupe
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.494923025, 0, 0.489126593, 0)
+TextLabel_3.Size = UDim2.new(0.844116926, -5, 0.654937744, -5)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "DupeAxe"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
